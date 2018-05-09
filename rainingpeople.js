@@ -14,7 +14,8 @@ function setup() {
     r = 0;
     g = 25;
     b = 0;
-}*/
+]    */
+
 
 function draw() {
   time++;
