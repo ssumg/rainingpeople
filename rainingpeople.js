@@ -7,14 +7,14 @@ var bigman = [];
 function setup() {
   createCanvas(1198, 1005);
   background = loadImage("amebito.png");
-  for(var i = 0; i<42; i++)
+  /*for(var i = 0; i<42; i++)
     smallman.push(new People());
   for(var i = 0; i<9; i++)
     bigman.push(new People());
     r = 0;
     g = 25;
     b = 0;
-}
+}*/
 
 function draw() {
   time++;
@@ -23,7 +23,7 @@ function draw() {
   if(time>50)
     r+=20;  
   background(r, g, b);
-  image(background, 0, 0);
+  image(background, 0, 0);/*
   for(var i=0; i<42; i++){
     smallman[i].display();
     smallman[i].yPos += 30;
@@ -67,5 +67,5 @@ function keyPressed() {
           bigman[i].yPos -= 60;
         }
     }
-  }
+  }*/
 }
