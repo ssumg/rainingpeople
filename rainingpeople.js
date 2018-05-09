@@ -10,11 +10,11 @@ function setup() {
   /*for(var i = 0; i<42; i++)
     smallman.push(new People());
   for(var i = 0; i<9; i++)
-    bigman.push(new People());
+    bigman.push(new People());*/
     r = 0;
     g = 25;
     b = 0;
-]    */
+]    
 
 
 function draw() {
