@@ -59,8 +59,7 @@ function People(){
 }
 }
 function keyPressed() {
-  if(key==CODED){
-    if(keyCode == UP){
+    if(keyCode === UP_ARROW){
         for(var i=0; i<42; i++){
           smallman[i].yPos-=60;
         }
