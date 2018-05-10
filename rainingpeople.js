@@ -53,7 +53,7 @@ function People(){
     else
       this.num = 0;
     for(this.xPos = 40; this.xPos < width - 100; this.xPos+=120){
-      image(man[this.num], this.xPos, this.yPos);
+      image(man[0], this.xPos, this.yPos);
     }
     this.yPos += 15;
 }
