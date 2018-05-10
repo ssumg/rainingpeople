@@ -6,7 +6,7 @@ var bigman = [];
 
 function setup() {
   createCanvas(1198, 1005);
-  background = loadImage("amebito.png");
+  background = loadImage('assets/amebito.png');
   /*for(var i = 0; i<42; i++)
     smallman.push(new People());
   for(var i = 0; i<9; i++)
